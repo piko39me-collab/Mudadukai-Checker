@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>MudadukaiServlet</servlet-name>
+  	<display-name>MudadukaiServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.MudadukaiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>MudadukaiServlet</servlet-name>
+  	<url-pattern>/MudadukaiServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
